@@ -111,7 +111,6 @@ schedule.every().day.at("18:00").do(post_scheduled_tweets)  # 6 PM
 schedule.every().day.at("21:00").do(post_scheduled_tweets)  # 9 PM
 schedule.every(5).hours.do(reply_to_trending_tweets)  # Every 5 hours
 
-# Test
 # Run the scheduler
 if __name__ == "__main__":
     print("Bot started. Running scheduled tasks...")
