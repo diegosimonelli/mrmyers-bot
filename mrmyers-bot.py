@@ -5,6 +5,10 @@ from google import genai
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import os
+from keep_alive import keep_alive
+
+# Keep alive my script
+keep_alive()
 
 # Load environment variables from .env file
 load_dotenv()
